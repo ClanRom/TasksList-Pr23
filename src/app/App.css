@@ -1,0 +1,79 @@
+div.posts-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: rgb(60, 60, 60);
+    margin: 10px;
+}
+
+button.add-btn:hover{
+    background-color: rgb(25, 84, 25);
+}
+
+div.filter-list{
+    background-color: rgb(91, 91, 91);
+
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button.filter-btn:hover{
+    background-color: rgb(70, 70, 211);
+}
+
+div.tasks-list{
+    margin-top: 10px;
+    background-color: rgb(51, 51, 51);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0 40px 40px 40px;
+
+}
+
+li{
+    background-color: rgb(81, 86, 90);
+    padding: 10px 20px;
+    margin: 10px;
+    word-break: break-all;
+}
+
+p.info-task{
+    text-align: start;
+}
+
+button.btn-remove:hover{
+    background-color: rgba(169, 31, 31, 0.615);
+}
+
+button.btn-edit:hover{
+    background-color: rgba(116, 121, 10, 0.615);
+}
+
+form.form-edit-task{
+    background-color: rgb(143, 143, 143);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+button.save:hover{
+    background-color: rgb(25, 84, 25);
+}
